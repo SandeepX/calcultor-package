@@ -1,0 +1,24 @@
+{
+    "name": "mr.incognito/laravel-calculator",
+    "description": "A Simple calculator laravel package",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MrIncognito\\LaravelCalculator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrIncognito\\LaravelCalculator\\Providers\\CalculatorServiceProvider"
+            ],
+            "aliases": {
+                "Calculator": "MrIncognito\\LaravelCalculator\\Facades\\Calculator"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
