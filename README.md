@@ -12,6 +12,10 @@ Run the following command to add the package to your Laravel project:
 
 `composer require mr.incognito/laravel-calculator`
 
+ ### or
+ 
+`composer require mr.incognito/laravel-calculator --ignore-platform-reqs`
+
 
 ## Usage
 Once installed, you can begin using the CalculatorService in your Laravel application.
