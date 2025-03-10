@@ -5,7 +5,6 @@ namespace MrIncognito\LaravelCalculator\Services;
 class CalculatorService
 {
     /**
-     * @param $a
      * @param $b
      * @return mixed
      */
