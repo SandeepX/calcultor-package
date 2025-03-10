@@ -7,7 +7,7 @@ use MrIncognito\LaravelCalculator\Services\CalculatorService;
 
 class CalculatorServiceProvider extends ServiceProvider
 {
-    public function register()
+    public function register(): void
     {
         $this->app->singleton('calculator', function ($app) {
             return new CalculatorService();
@@ -16,6 +16,6 @@ class CalculatorServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        // Optional: Load routes, views, etc.
+        // Register the calculator facade
     }
 }
